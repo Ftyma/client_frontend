@@ -1,0 +1,100 @@
+.searchInput {
+  border-radius: 1px;
+}
+
+.searchButton {
+  border-radius: 1px;
+  background-color: #f16f22 !important;
+  border-color: #f16f22 !important;
+}
+
+.productAddButton {
+  border-radius: 100% !important;
+  background-color: #f16f22 !important;
+  border-color: #f16f22 !important;
+}
+
+.productText {
+  line-height: 1.5em !important;
+  height: 3em !important; /* height is 2x line-height, so two lines will display */
+  overflow: hidden !important;
+}
+
+.productDescText {
+  line-height: 1.5em !important;
+  height: 3em !important; /* height is 2x line-height, so two lines will display */
+  overflow: hidden;
+}
+
+.bottomButton {
+  background-color: #f16f22 !important;
+  border-color: #f16f22 !important;
+}
+
+.popupCard {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.popupButton {
+  background-color: #f16f22 !important;
+  border-color: #f16f22 !important;
+  width: 100%;
+  justify-content: center;
+}
+
+.sidebar-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px; /* Adjust the width as needed */
+  background: #fff;
+  z-index: 9999; /* Adjust the z-index as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  transition: transform 0.3s ease-out;
+}
+
+.sidebar-dialog.dialog-visible {
+  transform: translateX(0);
+}
+
+.sidebar-dialog.dialog-hidden {
+  transform: translateX(-100%);
+}
+
+.inputBox .p-inputtext {
+  width: 1rem !important;
+  background-color: #f16f22 !important;
+}
+
+.categoryBtn {
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: black !important;
+  border: #f16f22 !important;
+}
+
+.prodCard {
+  width: 330px;
+  height: 420px;
+}
+
+.active {
+  background-color: #f16f22 !important;
+  color: white !important;
+  border-radius: 40px !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+
+@media (max-width: 360px) {
+  .prodCard {
+    width: 150px;
+    height: 330px;
+    margin: 5px;
+  }
+  .productAddButton {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}

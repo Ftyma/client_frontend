@@ -1,0 +1,50 @@
+.inputBox .p-inputnumber {
+  width: 1rem;
+}
+
+.removeBtn {
+  width: 30px !important;
+  height: 30px !important;
+  color: black !important;
+  background-color: white !important;
+  border-color: white !important;
+  position: relative !important;
+  left: 95% !important;
+  top: 10px;
+}
+
+.addBtn {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #f16f22 !important;
+  border-color: #f16f22 !important;
+  scale: 90%;
+}
+
+/* orderItem */
+.backBtn {
+  width: 30px !important;
+  height: 30px !important;
+  background-color: black !important;
+  border-color: black !important;
+  opacity: 40%;
+}
+
+@media (max-width: 360px) {
+  .removeBtn {
+    left: 85% !important;
+  }
+
+  .addBtn {
+    width: 30px !important;
+    height: 30px !important;
+    margin: auto !important;
+  }
+
+  .productText {
+    line-height: 1.5em;
+    height: 3em; /* height is 2x line-height, so two lines will display */
+    overflow: hidden;
+    width: 100px;
+  }
+}

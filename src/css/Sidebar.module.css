@@ -1,0 +1,43 @@
+.sideBarButton {
+  background-color: #f16f22 !important;
+  border-color: #f16f22 !important;
+  top: 0%;
+  width: 72px;
+  justify-content: start;
+}
+
+.showBar {
+  color: black;
+}
+
+.navbar {
+  background-color: #ffffff;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navMenu {
+  background-color: #ffffff;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.navMenu.active {
+  left: 0;
+  transition: 450ms;
+}
+
+.menuBtn {
+  background-color: #f16f22 !important;
+  color: white !important;
+  border-color: white !important;
+  border-radius: 1rem !important;
+}
